@@ -46,9 +46,9 @@ Rectangle {
     height: 480
     color: "#423A2F"
 
-    property var stock: null
-    property var stocklist: null
-    property var settings: null
+    property var    stock:      null  //当前股票对象
+    property var    stocklist:  null
+    property var    settings:   null
     signal listViewClicked
     signal settingsClicked
 
@@ -115,7 +115,10 @@ Rectangle {
             anchors.topMargin: 5
             color: root.stock.stockPriceChanged < 0 ? "#A43D3D" : "#679B3A"
             font.pointSize: 25
-            text: root.stock.stockPriceChanged + " (" + Math.abs(Math.round(root.stock.stockPriceChanged/(root.stock.stockPrice - root.stock.stockPriceChanged) * 100))/100  +"%)"
+            text: root.stock.stockPriceChanged + " ("
+                  + Math.abs(Math.round(root.stock.stockPriceChanged
+                       /(root.stock.stockPrice - root.stock.stockPriceChanged) * 100))/100
+                  +"%)"
         }
 
         StockChart {
