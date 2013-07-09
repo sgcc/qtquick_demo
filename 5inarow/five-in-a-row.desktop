@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Five in a row
+Comment=Five in a row game
+Exec=/usr/bin/5-in-a-row
+Icon=5inarow
+Terminal=false
+Type=Application
+StartupWMClass=5-in-a-row
+X-Osso-Type=application/x-executable

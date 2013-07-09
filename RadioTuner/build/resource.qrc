@@ -1,0 +1,43 @@
+<RCC>
+<qresource prefix="/">
+	<file>../content/RadioTuner.qml</file>
+	<file>../content/rangemodel.js</file>
+	<file>../content/RangeStation.qml</file>
+	<file>../content/images/n900/close.png</file>
+	<file>../content/images/n900/bt_next_down.png</file>
+	<file>../content/images/n900/medium_tick.png</file>
+	<file>../content/images/n900/low_tick.png</file>
+	<file>../content/images/n900/bt_prev_down.png</file>
+	<file>../content/images/n900/scala_glass.png</file>
+	<file>../content/images/n900/scala_ticks.png</file>
+	<file>../content/images/n900/bt_next.png</file>
+	<file>../content/images/n900/top.png</file>
+	<file>../content/images/n900/scala_bg.png</file>
+	<file>../content/images/n900/bt_prev.png</file>
+	<file>../content/images/n900/bt_rdsname_arrow.png</file>
+	<file>../content/images/n900/high_tick.png</file>
+	<file>../content/images/n900/bottom.png</file>
+	<file>../content/images/n900/scala_rdslabel.png</file>
+	<file>../content/images/n900/scala_needle.png</file>
+	<file>../content/images/s60/close.png</file>
+	<file>../content/images/s60/bt_next_down.png</file>
+	<file>../content/images/s60/medium_tick.png</file>
+	<file>../content/images/s60/low_tick.png</file>
+	<file>../content/images/s60/bt_prev_down.png</file>
+	<file>../content/images/s60/scala_glass.png</file>
+	<file>../content/images/s60/scala_ticks.png</file>
+	<file>../content/images/s60/bt_next.png</file>
+	<file>../content/images/s60/top.png</file>
+	<file>../content/images/s60/scala_bg.png</file>
+	<file>../content/images/s60/bt_prev.png</file>
+	<file>../content/images/s60/bt_rdsname_arrow.png</file>
+	<file>../content/images/s60/high_tick.png</file>
+	<file>../content/images/s60/bottom.png</file>
+	<file>../content/images/s60/scala_rdslabel.png</file>
+	<file>../content/images/s60/scala_needle.png</file>
+	<file>../content/RadioModel.qml</file>
+	<file>../content/StationsModel.qml</file>
+        <file>../main_s60.qml</file>
+	<file>../main_n900.qml</file>
+</qresource>
+</RCC>

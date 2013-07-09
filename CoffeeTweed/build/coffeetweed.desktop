@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Coffee Tweed
+Categories=Applications
+Exec=/usr/bin/coffeetweed
+Icon=coffeetweed
+X-Icon-path=/usr/share/pixmaps/
+X-Osso-Type=application/x-executable

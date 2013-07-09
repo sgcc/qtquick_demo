@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Weather QML
+Categories=Applications
+Exec=/usr/bin/weatherqml
+Icon=weatherqml
+X-Icon-path=/usr/share/pixmaps/
+X-Osso-Type=application/x-executable

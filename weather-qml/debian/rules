@@ -1,0 +1,43 @@
+#!/usr/bin/make -f
+
+configure:
+	dh_testdir
+
+build: build-stamp
+	/usr/bin/qmake
+	make
+
+build-stamp: configure
+	dh_testdir
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_installdirs
+
+	install -D -m 755 $(CURDIR)/weatherqml $(CURDIR)/debian/weatherqml/usr/bin/weatherqml
+	install -D -m 644 $(CURDIR)/weatherqml.desktop $(CURDIR)/debian/weatherqml/usr/share/applications/hildon/weatherqml.desktop
+	install -D -m 644 $(CURDIR)/icons/weatherqml.png $(CURDIR)/debian/weatherqml/usr/share/pixmaps/weatherqml.png
+
+binary-indep: build install
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_link
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure

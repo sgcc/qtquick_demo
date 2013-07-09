@@ -1,0 +1,9 @@
+Button Button.qml
+ControlPanel ControlPanel.qml
+Explosion Explosion.qml
+Frame Frame.qml
+GameView GameView.qml
+MainView MainView.qml
+MenuPanel MenuPanel.qml
+Switch Switch.qml
+Tile Tile.qml

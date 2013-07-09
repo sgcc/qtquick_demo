@@ -1,0 +1,45 @@
+
+INTRO
+==========
+
+This package contains QUItIndicators components with few usage examples.
+There are two separate components, BusyIndicator and ProgressIndicator.
+To use these in your own software, copy qml/QUItIndicators directory
+which contains the components and import that in your own QML files.
+
+RUNNING
+==========
+
+To run this application you need Qt 5.0.0 or newer:
+- http://qt-project.org
+- http://qt.gitorious.org/qt/qt5
+
+There are two different ways to run the application:
+
+1) If your target platform contains 'qmlscene' binary, just use it:
+---
+cd QUItIndicators
+[path to Qt5]/qtbase/bin/qmlscene qml/main.qml
+---
+
+2) Alternatively, a simple launcher is provided to start the application:
+---
+cd QUItIndicators
+[path to Qt5]/qtbase/bin/qmake
+make
+./QUItIndicators
+---
+
+The run application in fullscreen mode, use '--fullscreen' parameter for 
+qmlscene or launcher. If you want to tweak the window resolution, 
+modify 'width' and 'height' properties in main.qml
+
+
+LICENSE
+==========
+
+Source codes are licensed under a Creative Commons Attribution 3.0 Unported 
+License. http://creativecommons.org/licenses/by/3.0/
+
+No attribution required, but feel free to mention us or 
+contact info@quitcoding.com

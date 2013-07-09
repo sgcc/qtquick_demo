@@ -1,0 +1,56 @@
+
+INTRO
+==========
+
+NMap Carousel application is demonstrating the normal mapping technique
+using Qt5. Normal mapping is used for making the icons appear 3D with
+lighting and shadows. To increase this impression, there are also extra
+shadows reflected behind the icons.
+
+If you want to utilize this in your own Qt5 QML application:
+Copy NMapEffect.qml and NMapLightSource.qml, use your images with
+suitable lighting settings and implement rest of the UI. You can also
+edit the NMapEffect shader to suit your own needs.
+
+
+RUNNING
+==========
+
+To run this application you need relatively recent build of Qt5:
+- http://qt-project.org
+- http://qt.gitorious.org/qt/qt5
+
+There are two different ways to run the application:
+
+1) If your target platform contains 'qmlscene' binary, just use it:
+---
+cd Qt5_NMap_CarouselDemo
+[path to Qt5]/qtbase/bin/qmlscene Qt5_NMap_CarouselDemo.qml
+---
+
+2) Alternatively, a simple launcher is provided to start the application:
+---
+cd Qt5_NMap_CarouselDemo
+[path to Qt5]/qtbase/bin/qmake
+make
+./Qt5_NMap_CarouselDemo
+---
+
+The run application in fullscreen mode, use '--fullscreen' parameter for 
+qmlscene or launcher. If you want to tweak the window resolution, 
+modify 'width' and 'height' properties in Qt5_NMap_CarouselDemo.qml
+
+
+LICENSE
+==========
+
+Source codes are licensed under a Creative Commons Attribution 3.0 Unported 
+License. http://creativecommons.org/licenses/by/3.0/
+
+No attribution required, but feel free to mention us or 
+contact info@quitcoding.com
+
+Qt and the Qt logo is a registered trade mark of Digia plc.
+
+Icons 'Origami' by Double-J Design http://www.doublejdesign.co.uk
+

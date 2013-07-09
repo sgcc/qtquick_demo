@@ -1,0 +1,13 @@
+Source: five-in-a-row
+Section: unknown
+Priority: extra
+Maintainer: Kim Grönholm <kim.gronholm@quitcoding.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.1
+Homepage: www.quitcoding.com
+
+Package: five-in-a-row
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-experimental-core | libqt4-core, libqt4-experimental-gui | libqt4-gui, libqt4-experimental-opengl | libqt4-opengl, libqt4-experimental-declarative | libqt4-declarative
+Description: Five in a row game by QUIt Coding
+ Traditional five in a row game now made for N900 using QML.

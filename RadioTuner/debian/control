@@ -1,0 +1,12 @@
+Source: radiotuner
+Section: user/apps
+Priority: optional
+Maintainer: Anselmo Lacerda S. de Melo <anselmo.melo@openbossa.org>
+Build-Depends: debhelper (>= 4)
+Standards-Version: 3.8.1
+
+Package: radiotuner
+Architecture: any
+Depends: libqt4-declarative
+Maemo-Display-Name: RadioTuner
+Description: radiotuner

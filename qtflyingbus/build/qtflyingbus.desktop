@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Qt Flying Bus
+Categories=Applications
+Exec=/usr/bin/FlyingBus
+Icon=icon-qtflyingbus
+X-Icon-path=/usr/share/pixmaps/
+X-Osso-Type=application/x-executable

@@ -1,0 +1,13 @@
+Source: coffeetweed
+Section: user/apps
+Priority: optional
+Maintainer: Anselmo Lacerda S. de Melo <anselmo.melo@openbossa.org>
+Build-Depends: debhelper (>= 4)
+Standards-Version: 3.8.1
+
+Package: coffeetweed
+Architecture: any
+Depends: libqt4-declarative
+Maemo-Display-Name: CoffeeTweed
+Description: coffeetweed
+  Allows you to count how many coffee cups you drank on a day

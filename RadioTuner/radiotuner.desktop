@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Radio Tuner
+Categories=Applications
+Exec=/usr/bin/radiotuner
+Icon=radiotuner
+X-Icon-path=/usr/share/pixmaps/
+X-Osso-Type=application/x-executable

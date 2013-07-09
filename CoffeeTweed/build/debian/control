@@ -1,0 +1,13 @@
+Source: coffeetweed
+Section: user/Other
+Priority: extra
+Maintainer: Adriano Rezende <adriano.rezende@openbossa.org>
+Build-Depends: debhelper (>= 5), libqt4-experimental-dev
+Standards-Version: 3.8.4
+
+Package: coffeetweed
+Section: user/Other
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Coffee Tweed
+ Qt Quick demo.

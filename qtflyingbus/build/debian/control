@@ -1,0 +1,13 @@
+Source: qtflyingbus
+Section: user/Other
+Priority: extra
+Maintainer: Adriano Rezende <adriano.rezende@openbossa.org>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.8.4
+
+Package: qtflyingbus
+Section: user/Other
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt Flying Bus
+ This is a simple game written in QML
